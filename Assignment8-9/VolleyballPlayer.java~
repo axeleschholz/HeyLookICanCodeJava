@@ -1,0 +1,17 @@
+public class VolleyballPlayer extends Athlete
+{
+  protected int spikes;
+  public VolleyballPlayer(String firstName, String lastName, int id, double balance,
+                 char position, int athleteID, int number, int spikes)
+  {
+    super(firstName, lastName, id, balance, position, athleteID, number);
+    this.spikes = spikes;
+  }
+  
+}
+
+/*
+ * questions:
+ * motto, what's up with that
+ * is there an easier way to define children without having to write alllll the instance variables
+ * 

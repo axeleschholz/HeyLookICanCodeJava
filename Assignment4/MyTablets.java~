@@ -1,0 +1,25 @@
+/**
+ * Axel Eschholz
+ * 100161044
+ * Assignment 4 - MyTablets
+ */
+import java.util.*
+public class MyTablets {
+  
+  public static void main(String args[])
+  {
+    Tablet tablet1 = new Tablet(24,512,200);
+    Tablet tablet2 = new Tablet(60,256,18);
+    Tablet tablet3 = new Tablet(2,200);
+    Arraylist<Tablet> Tablets = new Arraylist<Tablet>;
+    Tablets.add(tablet1);
+    Tablets.add(tablet2);
+    Tablets.add(tablet3);
+    
+    for(int i; i < Tablets.length(); i++) {
+      System.out.println(Tablets[i]);
+    }
+    
+  }
+  
+}

@@ -1,0 +1,32 @@
+import java.util.*
+public class DocumentProcessing
+{
+  public static void main(String[] args) throws BadCodeException
+  {
+    Scanner filescan = new Scanner(new File("codes.txt"));
+    BadCodeException problem = new BadCodeException("Invalid code.");
+    int count = 0;
+    char check;
+    while(filescan.hasNextLine())
+    {
+      try
+      {
+        check = filescan.nextLine()[0];
+        switch (check) {
+          case 'A':
+            count++
+            break;
+          case 'B':
+            count++
+            break;
+          case 'C':
+            count++
+            break;
+          default:
+            throws BadCodeException
+        }
+        catch (BadCodeException exception)
+        {
+          System.out.println(check + " is not a valid code");
+        }
+    

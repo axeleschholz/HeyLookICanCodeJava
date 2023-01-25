@@ -1,0 +1,15 @@
+public class StudentBody
+{
+  private Student test;
+  //put an array as the instance data
+  
+  public StudentBody()
+  {
+    test = new Student("John", "Smith", 12345, 20.45);
+  }
+  
+  public String toString()
+  {
+    return test
+  }
+}

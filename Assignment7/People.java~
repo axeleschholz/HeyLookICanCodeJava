@@ -1,0 +1,10 @@
+public class People
+{
+  public static void main(String[] args)
+  {
+    Address address1 = new Address(7, "Maple Lane", "Vancouver");
+    Person person = new Person("Ron", "Weasely", 27, address1);
+    
+    Ssytem.out.println(person);
+  }
+}

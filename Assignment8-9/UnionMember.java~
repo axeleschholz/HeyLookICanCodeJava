@@ -1,0 +1,14 @@
+public class UnionMember
+{
+  protected int unionID;
+  
+  public UnionMember(String firstName, String lastName, int id, double balance, int unionID)
+  {
+    super(firstName, lastName, id, balance);
+    this.unionID = unionID;
+  }
+  
+  public String toString()
+  {
+    return "Union ID: ";
+  }

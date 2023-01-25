@@ -1,0 +1,56 @@
+import java.util.*
+public class ArrayBossDriver
+{
+  public static void main(String args[])
+  {
+    //initialize objects
+    int intArray[] = new int[5];
+    double doubleArray[] = new double[5];
+    char charArray[] = new char[5];
+    Random gen = new Random();
+    
+    //populate arrays
+    for(i = 0; i < intArray.length; i++)
+    {
+      intArray[i] = gen.nextInt(3,16);
+      doubleArray[i] = gen.nextDouble();
+      charArray[i] = gen.nextChar();
+    }
+    
+    //create ArrayBoss object
+    ArrayBoss arrays = new ArrayBoss(intArray.length, doubleArray.length, charArray.length);
+    
+    //perform ArrayBoss operations
+    arrays.stealIntegerArray(intArray);
+    arrays.copyDoubleArray(doubleArray);
+    arrays.reverseCopyArray(charArray);
+    
+    //print out arrays
+    System.out.println("Integer Array:");
+    for(i = 0; i < intArray.length; i++)
+    {
+      System.out.print(intArray[i]);
+      if(i != intArray.length)
+        System.out.print(", ");
+    }
+    System.out.println("\nDouble Array:");
+    for(i = 0; i < doubleArray.length; i++)
+    {
+      System.out.print(doubleArray[i]);
+      if(i != doubleArray.length)
+        System.out.print(", ");
+    }
+    System.out.println("\nCharacter Array:");
+    for(i = 0; i < charArray.length; i++)
+    {
+      System.out.print(charArray[i]);
+      if(i != charArray.length)
+        System.out.print(", ");
+    }
+    System.out.println();
+    
+    //print altered arrays
+    System.out.println(arrays);
+  }
+  
+}

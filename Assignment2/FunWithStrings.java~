@@ -1,0 +1,9 @@
+import java.utils.*;
+public class FunWithStrings
+{
+  public static void main(String args[])
+  {
+    Scanner scan = new Scanner(System.in)
+    
+  }
+}

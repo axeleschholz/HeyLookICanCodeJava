@@ -1,0 +1,21 @@
+public abstract class Athlete extends Student
+{
+  protected int number;
+  protected char position;
+  protected int athleteID;
+  
+  public Athlete(String firstName, String lastName, int id, double balance,
+                 char position, int athleteID, int number)
+  {
+    super(firstName, lastName, id, balance);
+    this.position = position;
+    this.athleteID = athleteID;
+    this.number = number;
+  }
+  
+  public string toString()
+  {
+    return super.toString() + "\nAthletics ID: " + athleteID 
+      + "\nNumber: " + number + "\nPosition: " + position);
+  }
+}

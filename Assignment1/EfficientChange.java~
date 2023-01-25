@@ -1,0 +1,24 @@
+/* 
+ * OriginalPrice - Assignment #1
+ * Name: Axel Eschholz
+ * ID: 161044e
+ */ 
+
+//import dependancies
+import java.util.*;
+
+public class EfficientChange
+{
+  public int, double breakdown(x)
+  {
+    return 2, 3.5;
+  }
+  
+  public static void main(String args[])
+  {
+    int x;
+    double y;
+    
+    x,y = breakdown(5)
+  }
+}

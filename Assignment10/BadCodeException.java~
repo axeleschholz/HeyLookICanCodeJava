@@ -1,0 +1,7 @@
+public BadCodeException extends Exception
+{
+  BadCodeException(String message)
+  {
+    super(message);
+  }
+}

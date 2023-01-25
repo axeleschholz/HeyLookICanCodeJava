@@ -1,0 +1,16 @@
+public class Employee extends Person
+{
+  int id;
+  
+  public Employee(String first, String last, int age, Address address, int id)
+  {
+    super(first,last,age,address);
+    this.id = id;
+  }
+  
+  public String toString()
+  {
+    return firstName + " " + lastName + " is " + age 
+      + " years old and lives at " + address + ".\nEmployee ID: " + id;
+  }
+}
